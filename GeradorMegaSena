@@ -1,0 +1,7 @@
+import numpy as np
+import random
+
+# Gera 3 vezes 6 números de 1 a 60
+numeros = np.random.randint(1,60, size=(3,6))
+
+print(numeros)
